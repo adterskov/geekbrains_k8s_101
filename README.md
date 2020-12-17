@@ -162,6 +162,11 @@ kubectl delete pod -A --all
 
 Тестируем стабильность кластера Kubernetes с помощью приложения KubeDOOM, убивая монстра удаляем случайный pod :)
 
+Клонируем репозиторий проекта KubeDOOM
+```
+git clone https://github.com/storax/kubedoom.git
+```
+
 Устанавливаем VNC Viewer
 
 https://www.realvnc.com/en/connect/download/viewer/macos/
