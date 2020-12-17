@@ -75,12 +75,12 @@ kubectl get node
 kubectl get node -o wide
 ```
 
-Показать все pod в namespace kube-system
+Показать все Pod в namespace kube-system
 ```
 kubectl get pod -n kube-system
 ```
 
-Вывести подробную информацию о pod в namespace kube-system
+Вывести подробную информацию о Pod в Namespace kube-system
 ```
 kubectl get pod -n kube-system -o wide
 ```
@@ -134,7 +134,7 @@ kubectl top pod
 kubectl top node
 ```
 
-Показать объекты hpa
+Показать объекты HPA
 ```
 kubectl get hpa -n hpa-test
 ```
@@ -144,7 +144,7 @@ kubectl get hpa -n hpa-test
 kubectl run -i --tty load-generator --rm --image=busybox --restart=Never -- /bin/sh -c "while sleep 0.01; do wget -q -O- http://php-apache; done"
 ```
 
-Проверяем состояние hpa и pods
+Проверяем состояние HPA и Pods
 ```
 kubectl get hpa -n hpa-test
 
@@ -153,14 +153,14 @@ kubectl get pod -w
 
 ## Проверяем надежность кластера Kubernetes
 
-Удалить все pod в кластере
+Удалить все Pod в кластере
 ```
 kubectl delete pod -A --all
 ```
 
-## Chaos Engeneering
+## Chaos Engineering
 
-Тестируем стабильность кластера Kubernetes с помощью приложения KubeDOOM, убивая монстра удаляем случайный pod :)
+Тестируем стабильность кластера Kubernetes с помощью приложения KubeDOOM, убивая монстра удаляем случайный Pod :)
 
 Клонируем репозиторий проекта KubeDOOM
 ```
@@ -173,7 +173,7 @@ https://www.realvnc.com/en/connect/download/viewer/macos/
 
 Подключаемся к KubeDoom через VNC **localhost:7000**
 
-Включаем port-forward
+Включаем Port forward
 ```
 kubectl port-forward deployment/kubedoom 7000:5900 -n kubedoom
 ```
