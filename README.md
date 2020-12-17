@@ -158,9 +158,9 @@ kubectl get pod -w
 kubectl delete pod -A --all
 ```
 
-## Chaos Engeneering
+## Chaos Engineering
 
-Тестируем стабильность кластера Kubernetes с помощью приложения KubeDOOM, убивая монстра удаляем случайный pod :)
+Тестируем стабильность кластера Kubernetes с помощью приложения KubeDOOM, убивая монстра удаляем случайный Pod :)
 
 Устанавливаем VNC Viewer
 
