@@ -4,11 +4,10 @@
 
 KiND (Kubernetes iN Docker) - это кластер Kubernetes, развернутый в Docker, поэтому он должен быть передварительно установлен:
 
-* [Docker Desktop](https://www.docker.com/products/docker-desktop) (Windows, MacOS)
-* [Docker Engine](https://docs.docker.com/engine/install/) (Linux)
+* [Docker](https://docs.docker.com/get-docker/)
 * [Go](https://golang.org/doc/install)
 
-Утанавка KiND для разных ОС
+Утанавливаем KiND
 
 https://kind.sigs.k8s.io/docs/user/quick-start/#installation
 
