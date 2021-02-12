@@ -106,7 +106,7 @@ curl http://localhost:8080
 
 Создаем Horizontal Pod Autoscaler 
 ```
-kubectl autoscale deployment php-apache --cpu-percent=20 --min=1 --max=5
+kubectl autoscale deployment php-apache --cpu-percent=25 --min=1 --max=5
 ```
 
 Устанавливаем Merics Server
